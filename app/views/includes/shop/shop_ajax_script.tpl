@@ -20,7 +20,7 @@
 
         let xhr = new XMLHttpRequest();
         xhr.open('POST', '{{URLROOT}}/shop/catalog/'+ id, true);
-        xhr.setRequestHeader('X_REQUESTED_WITH', 'XMLHttpRequest');
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
         xhr.onreadystatechange = function () {

@@ -1,0 +1,1252 @@
+//PAGES HEADERS
+
+.page-header
+  width: 100%
+  background-color: #ffffff
+  margin: 0 auto
+
+
+.page-top-bar
+  width: 100%
+  min-height: 25px
+  border-bottom: 1px solid #dddddd
+  .container-box
+    display: flex
+    justify-content: space-between
+  .greetings
+    color: #003366
+    font-family: Montserrat
+    font-size: 1.625rem
+    font-weight: 500
+    padding: 0 40px
+    line-height: 25px
+    text-transform: uppercase
+  span a
+    color: #003366
+    font-family: Montserrat
+    font-size: 1.625rem
+    font-weight: 400
+    padding: 5px 20px
+    line-height: 25px
+    text-decoration-line: none
+    text-transform: uppercase
+    .ti-shopping-cart
+      font-family: themify
+  .navigation__menu_active
+    border-bottom: 1px solid #f35f55
+  span a:hover
+    border-bottom: 1px solid #f35f55
+
+
+
+.page-navigation
+  width: 100%
+  .navigation
+    display: flex
+    justify-content: space-between
+    align-items: center
+  .navigation__logo
+    display: flex
+    align-items: center
+    padding: 3px 0
+    a
+      outline: none
+    a:nth-child(2)
+      padding-left: 6px
+      text-decoration-line: none
+      //color: #ffffff
+      color: #000000
+      font-family: Montserrat
+      font-size: 3rem
+      font-weight: 400
+      line-height: 42px
+      text-transform: uppercase
+
+  .navigation__menu
+    list-style: none
+    display: flex
+    width: 519px
+    justify-content: space-between
+    a
+      color: #003366
+      font-family: Montserrat
+      font-size: 1.75rem
+      font-weight: 700
+      text-transform: uppercase
+      text-decoration-line: none
+      padding: 4px 5px
+    a:hover
+      border-bottom: 1px solid #003366
+    .navigation__menu_active:hover
+      border-bottom: none
+    .navigation__menu_active
+      color: #f35f55
+
+
+
+
+.advantage_page
+  margin-bottom: 50px
+  background-color: #7796b4
+  .advantage-bar
+    display: flex
+    justify-content: space-between
+    min-height: 150px
+    .advantage-bar__item
+      display: flex
+      align-items: center
+      justify-content: space-around
+      width: 25%
+      //margin: 0 1%
+      color: #ffffff
+      font-family: Lato
+      font-size: 2rem
+      font-weight: 400
+      line-height: 23px
+      text-transform: uppercase
+
+.advantage_page
+  .ti-eye,
+  .ti-truck,
+  .ti-ruler-alt,
+  .ti-settings
+    color: #ffffff
+    font-size: 5.625rem
+    font-weight: 400
+    padding: 0 33px 0 12px
+
+
+//    BREADCRUMB
+
+.breadcrumb-block
+  flex-direction: column
+  margin-bottom: 30px
+
+  .breadcrumb
+    margin: 0 auto 50px
+    list-style: none
+    display: flex
+    justify-content: center
+  li
+    font-family: Lato
+    color:  #333333
+    font-size: 2rem
+    font-weight: 400
+    text-transform: uppercase
+    a
+      font-family: Lato
+      color:  #999999
+      font-size: 2rem
+      font-weight: 400
+      text-decoration-line: none
+
+  .active::before
+    content: ">"
+  .passive::before
+    content: ">"
+
+  .goodsList
+    display: flex
+    justify-content: center
+    list-style: none
+    .activeCat
+      outline: 2px solid #f35f55
+    button
+      padding: 14px
+      margin: 0 15px
+      border: 1px solid #999999
+      outline: none
+    button:hover
+      box-shadow: 0 0 5px 0 #999999
+      transition: box-shadow 0.2s
+    button:active
+      box-shadow: inset 0 0 15px 0 #999999
+
+
+
+
+
+
+
+
+//MAIN SHOP
+
+.shop
+  display: flex
+  flex-wrap: wrap
+  margin-top: 50px
+  margin-bottom: 60px
+  .shop-item
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    border: 0.125rem solid #dddddd
+    width: 25%
+    margin: 0 0 2%
+    padding: 1.5% 1.5% 3%
+    text-align: center
+    .item-price
+      color: #f35f55
+      font-family: Montserrat
+      font-size: 3rem
+      line-height: 23px
+      text-transform: uppercase
+      padding: 10px 0 20px
+    img
+      width: 100%
+      background-color: $img_background_color
+      border: 1px solid$img_background_color
+    a:nth-child(2)
+      color: $font_color_paragraph
+      font-family: Lato
+      font-size: 2rem
+      text-transform: uppercase
+      margin-top: 10px
+      width: fit-content
+      align-self: center
+    button
+      color: $font_color_paragraph
+      font-family: Lato
+      font-size: 2rem
+      font-weight: 400
+      padding: 5px 10px
+
+  .shop-item:hover
+    outline: 3px solid #f35f55
+    outline-offset: -3px
+
+.goodsSwitchPage
+  display: flex
+  justify-content: center
+  list-style: none
+  li
+    margin: 0 10px
+    border: 1px solid #999999
+    text-align: center
+  .activePage
+    background-color: #f35f55
+    border: 1px solid #f35f55
+    a
+      color:  #ffffff
+  a
+    text-decoration-line: none
+    font-family: Lato
+    color:  #666666
+    font-size: 1.75rem
+    font-weight: 400
+    line-height: 36px
+    padding: 12px 14px
+
+
+//BASKET
+.order-manual
+  margin-bottom: 60px
+  h5
+    font-family: Montserrat
+    color:  #2a2a2a
+    font-size: 25px
+    line-height: 25px
+    text-align: center
+    font-weight: 200
+  i
+    float: right
+    font-size: 10px
+  div
+    display: flex
+    justify-content: space-between
+    font-family: Montserrat
+    color:  #2a2a2a
+    font-size: 18px
+    line-height: 25px
+    text-align: center
+    font-weight: 200
+    margin: 60px 30px 10px
+    align-items: center
+    p
+      border: 2px solid #f35f55
+      border-radius: 7rem
+      padding: 15px
+    span
+      line-height: 94px
+      font-size: 30px
+      color: #f35f55
+      padding: 0 20px
+
+.background-block-service
+  display: flex
+  justify-content: center
+  border-top: 1px solid #ced4da
+  border-bottom: 1px solid #ced4da
+.order-service
+  margin: 30px auto
+  h3
+    font-family: Montserrat
+    color:  #2a2a2a
+    font-size: 36px
+    font-weight: 700
+    line-height: 42px
+    text-align: center
+    margin: 30px 0
+  table
+    text-align: center
+    font-family: Lato
+    thead th
+      vertical-align: middle
+      font-size: 2rem
+    th
+      font-size: 2rem
+    p
+      display: none
+      width: 70%
+      margin: 0 auto
+      font-family: Lato
+      font-size: 2rem
+      padding: 10px 0
+      line-height: 2rem
+      color: #f35f55
+  select
+    height: 26px
+    font-size: 1.5rem
+    padding: .375rem .75rem
+    font-size: 1.5rem
+    color: #495057
+    background-color: #fff
+    background-clip: padding-box
+    border: 1px solid #ced4da
+    border-radius: .25rem
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+    transition: width 1s
+  input,
+  textarea
+    width: 100%
+    font-size: 1.5rem
+  button
+    outline: none
+    color: #666666
+    font-weight: 400
+    font-size: 4rem
+    margin: 0 5px
+    padding: 5px 6px
+    border: 0.125rem solid #666666
+  button:hover
+    box-shadow: -3px 3px 15px #b8b8b8
+    transition: box-shadow 0.5s
+  button:active
+    outline: none
+    box-shadow: inset 0 0 10px #b8b8b8
+    position: relative
+    top: -1px
+  button:focus
+    outline: none
+  .ti-minus
+    float: right
+
+
+
+.background-block-equip
+  display: flex
+  justify-content: center
+  border-top: 1px solid #ced4da
+  border-bottom: 1px solid #ced4da
+  margin-bottom: 30px
+.order-shop
+  display: flex
+  align-items: center
+  margin: 30px 0
+  font-family: Lato
+  table
+    display: block
+  h3
+    font-family: Montserrat
+    color:  #2a2a2a
+    font-size: 36px
+    font-weight: 700
+    line-height: 42px
+    text-align: right
+    display: block
+    a
+      color: #003366
+  thead th
+    vertical-align: middle
+    font-size: 2rem
+  th, td
+    font-size: 2rem
+    text-align: center
+
+.background-block-contacts
+  display: flex
+  justify-content: center
+  background-color: #ebebeb
+.order-contacts
+  display: flex
+  align-items: center
+  margin: 30px 0
+  padding: 15px
+  .contacts-form
+    width: 100%
+  h3
+    display: flex
+    align-items: center
+    margin: 0
+    height: 100%
+    font-family: Montserrat
+    color:  #2a2a2a
+    font-size: 36px
+    font-weight: 700
+    line-height: 42px
+    z-index: 1
+    background-color: #ebebeb
+  input,
+  textarea
+    width: 70%
+    margin-bottom: 5px
+    font-family: Lato
+    font-size: 2rem
+    padding: 10px
+    line-height: 2rem
+    border: 1px solid #ced4da
+    border-radius: .25rem
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+    transition: left 1s
+  input:focus
+    color: #495057
+    background-color: #fff
+    border-color: #80bdff
+    outline: 0
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25)
+  .input-err
+    width: fit-content
+    overflow: hidden
+    margin-left: -150px
+    float: left
+    display: none
+    margin-bottom: 5px
+    font-family: Lato
+    font-size: 2rem
+    padding: 10px
+    line-height: 2rem
+    color: #f35f55
+
+
+.submitOrderBtn
+  display: block
+  clear: both
+  padding: 0 35px
+  margin: 0 auto 60px
+  font-family: Lato
+  font-size: 25px
+  line-height: 50px
+  color: #ffffff
+  font-weight: 400
+  text-align: center
+  background-color: #f35f55
+  outline: none
+
+// PRODUCT PAGE
+.product
+  border: 1px solid #dddddd
+  padding: 15px
+  .product-img
+    background-color: #dddddd
+    min-width: 360px
+    min-height: 360px
+  .col-sm-3
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    span
+      font-family: Montserrat
+      color:  #333333
+      font-size: 2.625rem
+      font-weight: 700
+      text-align: left
+    span:nth-child(2)
+      font-family: Lato
+      color:  #003366
+      font-size: 4.5rem
+      font-weight: 400
+    button
+      background-color: #f35f55
+      padding: 7px 15px
+      font-family: Lato
+      color:  #ffffff
+      font-size: 2rem
+      font-weight: 400
+      line-height: 1.438
+      text-align: left
+  .product-description
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    h6
+      font-family: Lato
+      color:  #333333
+      font-size: 2rem
+      font-weight: 900
+      line-height: 1.875
+      text-align: left
+    p
+      font-family: Lato
+      color:  #666666
+      font-size: 2rem
+      font-weight: 400
+      line-height: 1.875
+      text-align: left
+  .product-img-sm
+    background-color: #dddddd
+    width: 83px
+    height: 83px
+    margin: 20px 15px 0 0
+
+
+// SERVICES PAGE (services.html)
+
+.selectService
+  display: flex
+  flex-wrap: wrap
+  margin-top: 30px
+  margin-bottom: 30px
+  .item
+    border: 0.125rem solid #dddddd
+    width: 30%
+    padding: 1.5%
+    margin-bottom: 30px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    img
+      width: 100%
+      height: 260px
+    h3
+      color: $font_titles
+      font-family: Montserrat
+      font-size: 2.625rem
+      font-weight: 700
+      line-height: 2.625rem
+      text-transform: uppercase
+      text-decoration-line: none
+      margin: 20px 0
+
+    p
+      color: $font_color_paragraph
+      font-family: Lato
+      font-size: 2rem
+      font-weight: 400
+      line-height: 27px
+      padding-bottom: 20px
+      clear: both
+    a:last-child
+      display: inline-table
+      color: #f35f55
+      font-family: Lato
+      font-size: 2rem
+      font-weight: 700
+      line-height: 30px
+      text-decoration-line: none
+      text-transform: uppercase
+      padding: 5px 5px
+      outline: 1px solid #dddddd
+      box-shadow: -3px 3px 15px #dddddd
+    a:last-child:hover
+      outline: 1px solid #f35f55
+      transition: box-shadow 1s
+    a:last-child:active
+      //outline: none
+      box-shadow: inset 0 0 5px #dddddd
+      position: relative
+      top: 1px
+  img:hover
+    transform: scale(1.05)
+    transition: transform 0.5s
+  .item:hover
+    border: 0.125rem solid #f35f55
+    transition: border 1s
+
+
+//SERVICE SINGLE PAGE
+.service-single
+  display: flex
+  justify-content: space-between
+  .service-product
+    width: 65%
+    display: flex
+    flex-direction: column
+    border: 1px solid #dddddd
+    padding: 15px
+    img
+      min-width: 100%
+      margin-bottom: 30px
+    p
+      font-family: Lato
+      color:  #666666
+      font-size: 2rem
+      font-weight: 400
+      line-height: 1.875
+      text-align: left
+
+.right-nav-menu
+  width: 30%
+  .active
+    background-color: #f35f55
+    border: 1px solid #f35f55
+    span
+      font-family: Montserrat
+      color:  #ffffff
+      font-size: 2rem
+      font-weight: 500
+      line-height: 3
+      text-align: center
+      text-transform: uppercase
+  ul
+    list-style: none
+    li
+      width: 100%
+      border: 1px solid #dddddd
+      text-align: center
+      a
+        font-family: Montserrat
+        color:  #003366
+        font-size: 2rem
+        font-weight: 500
+        line-height: 3
+        text-transform: uppercase
+
+
+// NEWS PAGE
+.content-block
+  display: flex
+  justify-content: space-between
+  .side-bar
+    width: 25%
+    max-height: min-content
+    list-style: none
+    border: 1px solid #dddddd
+    li
+      display: flex
+      justify-content: space-between
+      max-height: 100px
+      img
+        max-width: 80px
+        max-height: 70px
+      a
+        width: 100%
+        padding: 30px 15px
+        font-family: Lato
+        color:  #333333
+        font-size: 2rem
+        font-weight: 400
+        text-align: left
+        text-decoration-line: none
+        border: 1px solid white
+      a:hover
+        box-shadow: 5px 3px 15px #dddddd
+        transition: box-shadow 0.5s
+      a:active
+        box-shadow: inset 0 0 5px #dddddd
+        position: relative
+        top: 1px
+    li:first-child
+      background-color: #f35f55
+      font-family: Montserrat
+      color:  #ffffff
+      font-size: 2rem
+      font-weight: 400
+      line-height: 6.5rem
+      text-align: left
+      text-transform: uppercase
+      margin: 0
+      padding: 0 15px
+
+
+.news-block
+  display: flex
+  justify-content: space-between
+  flex-direction: column
+  width: 70%
+  .post
+    display: flex
+    flex-direction: column
+    border: 1px solid #dddddd
+    padding: 15px
+    margin-bottom: 30px
+    img
+      width: 100%
+      max-height: 60%
+      margin-bottom: 30px
+    h1
+      font-family: Montserrat
+      color:  #003366
+      font-size: 2.625rem
+      font-weight: 700
+    .post-info
+      font-family: Lato
+      color:  #999999
+      font-size: 1.75rem
+      font-weight: 400
+      margin: 15px 0
+      span
+        color:  #003366
+        font-size: 1.75rem
+        font-weight: 400
+        line-height: 2.286
+        text-align: left
+      span:nth-child(2)
+        padding-left: 20px
+    .post-text
+      font-family: Lato
+      color:  #666666
+      font-size: 2rem
+      font-weight: 400
+      line-height: 1.875
+      text-align: left
+      margin-bottom: 15px
+    a
+      color: #f35f55
+      font-family: Lato
+      font-size: 2rem
+      font-weight: 700
+      line-height: 30px
+      text-decoration-line: none
+      text-transform: uppercase
+      padding: 5px 5px
+      outline: 1px solid #dddddd
+      box-shadow: -3px 3px 15px #dddddd
+      text-align: center
+    a:hover
+      outline: 1px solid #f35f55
+      transition: box-shadow 1s
+    a:active
+      box-shadow: inset 0 0 5px #dddddd
+      position: relative
+      top: 1px
+
+
+
+//ABOUT.HTML
+
+//    WHO WE ARE line (about.html)
+
+.about-text
+  background-color: #ebebeb
+  display: flex
+  flex-direction: column
+  color: #333333
+  font-family: Lato
+  font-size: 2rem
+  font-weight: 400
+  line-height: 1.875
+  h1
+    margin: 50px 0 0
+  p
+    margin: 50px 0
+    width: 55%
+
+.about-video
+  min-height: 500px
+  align-items: center
+  display: flex
+  color: #333333
+  font-family: Lato
+  font-size: 2rem
+  font-weight: 400
+  line-height: 1.875
+  p
+    margin: 50px 0
+    width: 50%
+  .video-presentation
+    width: 50%
+    height: 295px
+    padding: 15px
+    border: 1px solid #dddddd
+    margin-left: 25px
+
+
+//GALLERY (about.html)
+
+.gallery-title
+  display: flex
+  justify-content: space-between
+  h1
+  color: #2a2a2a
+  font-family: Montserrat
+  font-size: 4.5rem
+  font-weight: 700
+  line-height: 42px
+  text-transform: uppercase
+  .arrow-buttons
+    display: flex
+    justify-content: space-between
+    button
+      color: #666666
+      font-weight: 400
+      line-height: 34px
+      text-align: center
+      padding: 5px 6px
+      margin: 0 5px
+      border: 0.125rem solid #666666
+      outline: none
+    button:hover
+      box-shadow: -3px 3px 15px $img_background_color
+      transition: box-shadow 0.5s
+    button:active
+      box-shadow: inset 0 0 10px $img_background_color
+      position: relative
+      top: -1px
+
+//  ABOUT PAGE SLIDER/GALLERY
+
+.gallery-slider
+  display: flex
+.slider-wrapper
+  display: flex
+  position: relative
+  padding: 50px 0 80px
+  margin: 0 auto
+  .slider-item
+    overflow: hidden
+    width: 390px
+    height: 390px
+    position: relative
+    background-color: rgba(0, 51, 102, 0.7)
+    a
+      display: flex
+      justify-content: center
+      width: inherit
+      height: inherit
+      .ti-fullscreen
+        color:  #f35f55
+        font-size: 36px
+        font-weight: 400
+        line-height: 390px
+      .gallery-image
+       position: absolute
+       height: inherit
+    a:hover .gallery-image
+      transform: scale(1.1)
+      transition: transform 1s
+      opacity: 0.7
+      z-index: -1
+    a:hover
+      text-decoration-line: none
+
+
+.overlay
+  display: none
+  text-align: center
+  line-height: 100
+  position: fixed
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 51, 102, 0.7)
+  z-index: 100
+  .fullImg
+    //display: none
+    display: inline-block
+    z-index: 100
+    transition: all 1s
+
+
+
+.process-choose
+  display: flex
+  margin-top: 50px
+  margin-bottom: 80px
+  .item
+    border: 0.125rem solid #dddddd
+    width: 33%
+    padding: 1.5%
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    img
+      width: 100%
+      max-height: 263px
+    h3
+      color: $font_titles
+      font-family: Montserrat
+      font-size: 2.625rem
+      font-weight: 700
+      line-height: 2.625rem
+      text-transform: uppercase
+      text-decoration-line: none
+      margin: 20px 0
+      span
+        color:  #f35f55
+
+    p
+      color: $font_color_paragraph
+      font-family: Lato
+      font-size: 2rem
+      font-weight: 400
+      line-height: 27px
+      padding-bottom: 20px
+      clear: both
+    a:last-child
+      display: inline-table
+      color: #f35f55
+      font-family: Lato
+      font-size: 2rem
+      font-weight: 700
+      line-height: 30px
+      text-decoration-line: none
+      text-transform: uppercase
+      padding: 5px 5px
+      outline: 1px solid #dddddd
+      box-shadow: -3px 3px 15px #dddddd
+    a:last-child:hover
+      outline: 1px solid #f35f55
+      transition: box-shadow 1s
+    a:last-child:active
+      //outline: none
+      box-shadow: inset 0 0 5px #dddddd
+      position: relative
+      top: 1px
+  img:hover
+    transform: scale(1.05)
+    transition: transform 0.5s
+  .item:hover
+    border: 0.125rem solid #f35f55
+    transition: border 1s
+
+
+
+// CONTACTS.HTML Page
+
+.ask-question
+  margin-bottom: 60px
+  a
+    display: flex
+    justify-content: center
+    width: 50%
+    margin: 0 auto
+    border: 1px solid #2a2a2a
+    line-height: 80px
+    text-transform: uppercase
+    font-family: Montserrat
+    color:  #2a2a2a
+    font-size: 3rem
+    font-weight: 500
+    text-decoration-line: none
+  a:first-child
+    margin-bottom: 20px
+  a:hover
+    border-color: #f35f55
+    color: #f35f55
+    text-decoration-line: none
+    transition: all 0.5s
+  a:active
+    position: relative
+    top: 1px
+
+
+
+
+
+
+.contacts-block
+  width: 100%
+  margin-bottom: 60px
+  .contacts-line__text
+    display: flex
+    justify-content: space-around
+    color: #333333
+    font-family: Lato
+    font-size: 2rem
+    font-weight: 400
+    line-height: 2
+    .contacts
+      align-content: center
+    span:nth-child(2n)
+      vertical-align: super
+    span:nth-child(2n+1)
+      color: #f35f55
+      font-size: 3rem
+      font-weight: 400
+      line-height: 3
+      padding-right: 20px
+
+.sendForm
+  width: 100%
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  input[type="text"]:nth-child(3),
+    width: 100%
+  textarea
+    width: 100%
+    padding: 0 20px
+    margin-bottom: 20px
+    border: 1px solid #666666
+    font-family: Lato
+    color:  #2a2a2a
+    font-size: 2rem
+    font-weight: 400
+    line-height: 3
+  input
+    width: 45%
+    padding: 0 20px
+    margin-bottom: 20px
+    border: 1px solid #666666
+    font-family: Lato
+    color:  #2a2a2a
+    font-size: 2rem
+    font-weight: 400
+    line-height: 3
+  input[type="submit"]
+    width: auto
+    padding: 0 35px
+    margin: 0 auto 60px
+    font-family: Lato
+    color:  #ffffff
+    font-weight: 400
+    text-align: center
+    background-color: #f35f55
+
+.loginForm
+  width: 70%
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: space-between
+  .input_error
+    width: 49%
+    font-family: Lato
+    color:  #f35f55
+    font-size: 1.5rem
+  label
+    font-family: Lato
+    color:  #666666
+    font-size: 2rem
+    text-transform: uppercase
+    font-weight: 400
+    margin: 30px
+  input[type="text"]:nth-child(3)
+    width: 100%
+  input[type="text"]:nth-child(8)
+    width: 100%
+    height: 200px
+  input
+    width: 45%
+    padding: 0 20px
+    margin-top: 10px
+    border: 1px solid #666666
+    font-family: Lato
+    color:  #999999
+    font-size: 2rem
+    font-weight: 400
+    line-height: 3
+  input[type="submit"]
+    width: auto
+    padding: 0 35px
+    margin: 0 auto 60px
+    font-family: Lato
+    color:  #ffffff
+    font-weight: 400
+    text-align: center
+    background-color: #f35f55
+
+
+
+.registerForm
+  width: 100%
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  .form-group-1
+    width: 60%
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  .form-group-2
+    width: 40%
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  .input_error
+    font-family: Lato
+    color:  #f35f55
+    font-size: 1.5rem
+  label
+    font-family: Lato
+    color:  #666666
+    font-size: 2rem
+    text-transform: uppercase
+    font-weight: 400
+  input
+    width: 45%
+    padding: 0 20px
+    margin-top: 10px
+    border: 1px solid #666666
+    font-family: Lato
+    color:  #999999
+    font-size: 2rem
+    font-weight: 400
+    line-height: 3
+  input[type="submit"]
+    width: auto
+    padding: 0 35px
+    margin: 0 auto 60px
+    font-family: Lato
+    color:  #ffffff
+    font-weight: 400
+    text-align: center
+    background-color: #f35f55
+
+
+
+//FOOTER SHOP PAGE
+
+.getCalc-line
+  width: 100%
+  border-top: 1px solid #003366
+  height: 18.63rem
+
+  a
+    background-color: #003366
+    padding: 12px 20px
+    font-family: Lato
+    color:  #ffffff
+    font-size: 2rem
+    font-weight: 400
+    line-height: 1.438
+    margin: 54px 0
+    text-decoration-line: none
+  .getCalc_flex
+    display: flex
+    justify-content: space-between
+    align-items: center
+    font-family: Montserrat
+    color:  #003366
+    font-size: 2.625rem
+    font-weight: 700
+    line-height: 1.429
+
+
+.footer-links-background
+  background-color: #7290ad
+  .footer-links-page
+    display: flex
+    justify-content: space-between
+    padding: 80px 0
+
+  .footer-links__logo
+    width: 30%
+    padding-right: 10%
+    img
+      float: left
+    .contacts
+      font-family: Lato
+      color:  #ffffff
+      font-size: 1.625rem
+      font-weight: 400
+      line-height: 3.231
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      min-height: 40%
+      padding-left: 10%
+    p
+      color:  #ffffff
+      font-size: 1.625rem
+      font-weight: 400
+      line-height: 2.5rem
+      clear: both
+      padding-top: 10%
+
+  .footer-links__menu
+    width: 20%
+    list-style: none
+    font-family: Lato
+    a
+      font-family: Lato
+      color:  #ffffff
+      font-size: 1.625rem
+      font-weight: 400
+      line-height: 4.231rem
+      text-decoration: underline
+
+    li:first-child
+      color: #ffffff
+      font-family: Lato
+      font-size: 1.625rem
+      line-height: 4.231rem
+      font-weight: 700
+      text-transform: uppercase
+    a:hover
+      color: #f35f55
+  .footer-links__list
+    width: 30%
+    font-family: Lato
+    color:  #ffffff
+    font-size: 1.625rem
+    font-weight: 400
+    line-height: 3.231
+    span
+      padding-right: 5px
+
+
+
+// ADMIN AND ACCOUNT PAGE
+.account-menu
+  display: flex
+  justify-content: space-between
+  margin-bottom: 20px
+  li
+    display: flex
+    line-height: 6rem
+    a
+      width: 100%
+      border: 1px solid #dddddd
+      padding: 0 15px
+      font-family: Lato
+      color:  #333333
+      font-size: 2rem
+      font-weight: 400
+      text-align: center
+      text-transform: uppercase
+      text-decoration-line: none
+    a:hover
+      box-shadow: 5px 3px 15px #dddddd
+      transition: box-shadow 0.5s
+    a:active
+      box-shadow: inset 0 0 5px #dddddd
+      position: relative
+      top: 1px
+    .account-menu-active
+      border: 1px solid #f35f55
+
+.account-block
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  table
+    font-size: 1.5rem
+    word-wrap: break-word
+
+.orders-table
+  border: 1px solid #dee2e6
+  padding: 5px
+  margin-bottom: 20px
+  table thead
+    text-transform: uppercase
+    text-align: center
+    font-size: 1.5rem
+  tbody tr
+    text-align: center
+.hrow
+  text-align: right
+  font-size: 1.5rem
+
+table caption
+  caption-side: top
+  text-align: center
+  text-transform: uppercase
+  font-size: 2rem
+
+
+
+
+
+
